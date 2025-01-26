@@ -24,11 +24,5 @@ Avant de commencer, assurez-vous que vous avez installé les outils suivants :
 
 - **Node.js** et **npm** pour le frontend.
 - **Java** et **Maven** ou **Gradle** pour le backend (Spring Boot).
-  
-## Installation
 
-### Frontend
 
-1. Clonez ce dépôt sur votre machine locale :
-   ```bash
-   git clone https://github.com/ton-utilisateur/generateur-mots-de-passe.git
