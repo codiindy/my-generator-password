@@ -1,0 +1,40 @@
+# Ignorer les fichiers générés par Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar  # Garder le wrapper Maven
+
+# Ignorer les fichiers générés par Node.js dans frontend
+frontend/node_modules/          # Modules Node.js
+frontend/dist/                  # Dossier généré après le build du frontend
+
+# Ignorer les fichiers de l'IDE
+### STS (Spring Tool Suite) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+build/
+!**/src/main/**/build/   # Pas nécessaire dans un projet Maven classique
+!**/src/test/**/build/    # Pas nécessaire dans un projet Maven classique
+
+### VS Code ###
+.vscode/
+
+# Fichiers spécifiques au système d'exploitation (pour éviter les fichiers temp, etc.)
+.DS_Store          # macOS
+Thumbs.db          # Windows
