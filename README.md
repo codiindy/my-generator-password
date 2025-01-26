@@ -31,4 +31,4 @@ Avant de commencer, assurez-vous que vous avez installé les outils suivants :
 
 1. Clonez ce dépôt sur votre machine locale :
    ```bash
-   git clone https://github.com/ton-utilisateur/generateur-mots-de-passe.git
+   git clone [https://github.com/ton-utilisateur/generateur-mots-de-passe.git](https://github.com/codiindy/my-generator-password.git)
